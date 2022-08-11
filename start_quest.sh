@@ -1,6 +1,6 @@
 #!/bin/bash
 
-API_BASE_URL="${API_BASE_URL:="https://engine.wilco.gg?filter=title"}"
+API_BASE_URL="${API_BASE_URL:="https://engine.wilco.gg/filter=title"}"
 WILCO_ID="`cat .wilco 2> /dev/null`"
 
 sendEvent() {
